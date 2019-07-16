@@ -8,6 +8,7 @@ categories: about staff credits roles
 This effort has been made possible by all the efforts of our team members.
 
 # Current Members
+
 | Name          | Point of Contact        | Communications | Editor | Leader | Transcriber | Translator | Web Admin |
 |---------------|-------------------------|----------------|--------|--------|-------------|------------|-----------|
 | Churien       |                         | - | - | - | - | X | - |
@@ -20,6 +21,7 @@ This effort has been made possible by all the efforts of our team members.
 | Yaobikuni     |                         | X | X | X | X | X | - |
 
 # All Members
+
 | Name          | Point of Contact        | Communications | Editor | Leader | Transcriber | Translator | Web Admin |
 |---------------|-------------------------|----------------|--------|--------|-------------|------------|-----------|
 | Ageratum      |                         | - | - | - | X | X | - |
@@ -33,6 +35,7 @@ This effort has been made possible by all the efforts of our team members.
 | Yaobikuni     |                         | X | X | X | X | X | - |
 
 # Team Roles
+
 | Role Type     | Description                                     |
 |---------------|-------------------------------------------------|
 | Communication | Responsible for outreach and discussion         |
