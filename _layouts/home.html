@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<div class="home">
+    <center><title>ほら！ホラー！　(Hey! Horror!)</title><center>
+    Welcome to the website of the world famous translation and subtitling group Hora Hora!
+    <br/>
+    <br/>
+    Here you can find recent works, past projects, and information about the members!
+    <br/>
+    <br/>
+    よろしくお願いしおます！
+    <br/>
+    <br/>
+    <br/>
+    <h1>Current Projects</h1>
+    <ul>
+        <li>The Other-Worldly Broadcasting Station - <a href="https://www.youtube.com/channel/UCBG-DC14KbP9QXnkprkER7w">怪異伝播放送局</a></li>
+    </ul>
+    
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    <br/>
+    <br/>
+    {{ content }}
+    {%- if site.posts.size > 0 -%}
+    <h1 class="post-list-heading">{{ page.list_title | default: "Previous Projects" }}</h1>
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+</div>
