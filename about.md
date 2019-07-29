@@ -12,7 +12,7 @@ This effort has been made possible by all the efforts of our team members.
 | Name          | Point of Contact        | Communications | Editor | Leader | Transcriber | Translator | Web Admin |
 |---------------|-------------------------|----------------|--------|--------|-------------|------------|-----------|
 | Churien       |                         | - | - | - | - | X | - |
-| Flying Shogi  |                         | X | X | - | X | - | - |
+| Flying Shogi  |                         | X | X | - | X | X | - |
 | Logan Knecht  | https://loganknecht.com | X | - | - | X | X | X |
 | Pulp          |                         | - | - | X | - | X | - |
 | Rafer45       |                         | - | X | - | - | - | - |
